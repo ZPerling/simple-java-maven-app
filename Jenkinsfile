@@ -1,4 +1,5 @@
 pipeline {
+    node any
     stages {
         stage('Build') {
             steps {
